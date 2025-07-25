@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Secrets and configs
+.env
+.env.*
+config.yaml
+config.local.yaml
+
+# Logs
+*.log
+flask.log
+
+# Pytest
+.pytest_cache/
+
+# IDEs
+.idea/
+
+# Python compiled files (already covered above but being explicit)
+*.pyc
+
+# Virtual environment
+/lib
+/bin
+pyvenv.cfg
+
+# Tokens
+tokens.json
+serviceAccountKey.json
+firebase-credentials.json
